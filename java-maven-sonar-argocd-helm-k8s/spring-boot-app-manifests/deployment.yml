@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: dockerysf/ultimate-cicd:replaceImageTag
+        image: dockerysf/ultimate-cicd:3
         resources:
           limits:
             memory: "512Mi"  # Adjust the memory limit as needed
